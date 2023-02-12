@@ -30,6 +30,7 @@ app.engine('hbs', engine({
     partialsDir: __dirname + '/views/partials'
 }))
 
+
 app.use(
     session({
         store: mongoStore.create({
