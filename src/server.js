@@ -78,7 +78,7 @@ app.all("*", (_req, res) => {
   
   } else {
       const app = express();
-      const PORT = parseInt(process.argv[2]) || 8080;
+      const PORT = 8080;
   
       app.get(`/datos`, (req, res) =>{
           res.send(`Server en port(${PORT}) - PID ${process.pid} - FyH ${new Date().toLocaleString()}`)
@@ -100,7 +100,7 @@ const options = {
         "PORT": 8080
     }
 };
-
+/* 
 app._router.stack.forEach(function (r) {
     if (r.route && r.route.path) {
       console.log(r.route.path)
@@ -114,3 +114,4 @@ const server = app.listen(PORT, () => {
     
 server.on('error', (err) => logger.error(err));
 
+ */

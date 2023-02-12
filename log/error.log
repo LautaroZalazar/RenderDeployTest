@@ -33,3 +33,7 @@
   address: '::',
   port: 8080
 }
+[2023-02-12T18:08:23.802] [ERROR] default - ⛔ Error al conectarse a MongoDB ATLAS
+[2023-02-12T18:11:12.985] [ERROR] default - ⛔ Error al conectarse a MongoDB ATLAS
+[2023-02-12T18:11:27.281] [ERROR] default - ⛔ Error al conectarse a MongoDB ATLAS
+[2023-02-12T18:17:16.718] [ERROR] default - ⛔ Error al conectarse a MongoDB ATLAS
